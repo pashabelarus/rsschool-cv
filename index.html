@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>This is my CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <h1>Pavel Suntsou</h1>
+                <nav>
+                    <div>Contacts:</div>
+                    <ul class="header__menu"> 
+                        <li>
+                            <a href="http://pasha2010.94@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="http://t.me/pashabelarus">Telegram</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__block">
+                <aside class="main__aside">
+                    <img src="img/nuXKsg0DjrY.jpg" alt="photo">
+                    <h2> Junior Front-End Developer</h2>
+                    <h3>My skills:</h3>
+                    <ul> 
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </aside>
+                <section class="main__content">
+                    <h2>About me:</h2>
+                    <div>My goal is to master programming skills. My strengths are conscientiousness and diligence. I am eager to learn new things and am able to learn quickly.</div>
+                    <h2>Sample code:</h2>
+                    <pre class="main__content-code">
+                        <code>
+    function calc(value) {
+        if (value.match(/=|Enter/)) {
+            try {
+                output.textContent = Math.trunc(math.evaluate(output.textContent))
+            } catch {
+                let oldValue = output.textContent
+                let newValue = 'недопустимое выражение'
+                output.textContent = newValue
+                setTimeout(() => {
+                    output.textContent = oldValue
+                }, 1500)
+            }
+        } else if (value === 'C') {
+            output.textContent = ''
+        } else if (value.match(/CE|Backspace/)) {
+            output.textContent = output.textContent.substring(0, output.textContent.length - 1)
+        } else {
+            output.textContent += value
+        }
+    }
+                        </code>
+                    </pre>
+                    <h2 class="margin">Experience:</h2>
+                    <div>No working experience</div>
+                    <h2>Education:</h2>
+                    <div>
+                        <ol>
+                            <li>Orsha college of Vitebsk State University named after P.M.Masherov</li>
+                            <li>Finished the course on the site Udemy.com</li>
+                        </ol>
+                    </div>
+                    <h2>English:</h2>
+                    <div class="marginbottom">My English level is A0</div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__menu">
+                <div class="footer__menu-rss">
+                    <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="logorss"></a>
+                </div>
+                <div class="footer__menu-github">
+                    <a href="https://github.com/pashabelarus">My GitHub</a>
+                    <div>2021</div>
+                </div>
+                <div class="footer__menu-youtube">
+                    <a href="https://www.youtube.com/"><img src="img/YouTube_full-color_icon_(2017).svg" alt="logoyoutube"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
