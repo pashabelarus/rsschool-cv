@@ -27,4 +27,4 @@ No working experience
 1. Orsha college of Vitebsk State University named after P.M.Masherov
 2. Finished the course on the site [*Udemy*](https://www.udemy.com/)
 ### English
-My English level is ___A0___
+My English level is *A0*
