@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background:#f6f6f6;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.header__content {
+    display: flex;
+    height: 70px;
+    background:gray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.header__content>nav {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.header__menu {
+    display: flex;
+    list-style: none;
+    
+}
+.header__menu>li {
+    margin-left: 10px;
+}
+.header__menu>li>a {
+    text-decoration: none;
+    color:blue;
+}
+.header__menu>li>a:hover {
+    text-decoration: underline;
+    color:darkblue;
+}
+.main__block {
+    display: flex;
+}
+.main__aside {
+    width: 33%;
+    background:gray;
+
+}
+.main__aside>img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.main__aside>h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+.main__aside>h3 {
+    margin: 20px 0 0 20px;
+}
+.main__aside>ul {
+    margin-left:38px;
+}
+.main__aside>ul>li {
+    margin-top: 5px;
+}
+.main__content {
+    width: 77%;
+    background:darkgray;
+}
+.main__content>h2 {
+    margin: 20px 0 0 20px;
+}
+.main__content>.margin {
+    margin-top: 0;
+}
+.main__content>div {
+    margin: 10px 20px 0 20px;
+    font-weight: 500;
+}
+.main__content>.marginbottom {
+    margin-bottom: 20px;
+}
+.main__content-code>code {
+    display: block;
+    margin: 0 20px;
+    background:lightgrey;
+}
+.main__content>div>ol {
+    margin-left:20px;
+}
+.main__content>div>ol>li:nth-child(1){
+    margin-bottom: 10px;
+}
+.footer__menu {
+    display: flex;
+    justify-content:space-around;
+    background: gray;
+    padding: 30px 0;
+}
+.footer__menu-rss {
+    width: 134px;
+    height: 50px;
+}
+.footer__menu-github{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.footer__menu-github>a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color:blue;
+}
+.footer__menu-github>a:hover {
+    text-decoration: underline;
+    color:darkblue;
+}
